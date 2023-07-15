@@ -9,18 +9,18 @@ git reset --hard n
 git reset --hard <commit-hash>
 
 ## to create a new repository with local changes saved that are not commited in the current repository 
-### create a new branch
+### 1. create a new branch
 `git checkout -b new-branch`
 
-### add the local changes
+### 2. add the local changes
 `git add .`
 
-### commit the changes to the new branch
+### 3. commit the changes to the new branch
 `git commit -m "added local changes to the new branch"`
 
-### switch to original branch
+### 4. switch to original branch
 `git checkout old-branch`
 
-### clean the local changes so that only commit changes remain
+### 5. clean the local changes so that only commit changes remain
 `git clean -f`
 
