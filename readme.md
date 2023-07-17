@@ -1,12 +1,12 @@
 ## to discard changes after the last commit 
-git reset --hard
+`git reset --hard`
 (sets pointer to the head)
 
 ## to delete last n commits from the log
-git reset --hard n
+`git reset --hard n`
 
 ## to delete commit till a specified commit 
-git reset --hard <commit-hash>
+git reset --hard \<commit-hash\>
 
 ## to create a new repository with local changes saved that are not commited in the current repository 
 1. create a new branch
